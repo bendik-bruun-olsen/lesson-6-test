@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from "path"
-import { ESLint } from 'eslint'
+import eslint from 'eslint'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), ESLint()],
+  plugins: [react(), eslint()],
   base: "/lesson-6-test",
   resolve: {
     alias: {
