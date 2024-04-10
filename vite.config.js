@@ -6,7 +6,7 @@ import { ESLint } from 'eslint'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), ESLint()],
-  base: "/portfolio",
+  base: "/lesson-6-test",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src")
